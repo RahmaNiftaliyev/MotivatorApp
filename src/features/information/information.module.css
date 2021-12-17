@@ -1,0 +1,40 @@
+:root {
+  --bg-oranger: #ff9c42 !important;
+}
+
+.informationContainer {
+  background-color: var(--bg-oranger);
+  min-height: 100vh;
+}
+
+.minHeight100 {
+  min-height: 100vh;
+
+}
+
+
+.shadowMain {
+  box-shadow: 0px 0px 44px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.aside {
+   z-index:15;
+}
+
+.aside,
+.main {
+  min-height: 100vh;
+
+
+}
+
+.main {
+-webkit-box-shadow: -9px 0px 19px -4px rgba(255,156,45,1);
+-moz-box-shadow: -9px 0px 19px -4px rgba(255,156,45,1);
+box-shadow: -9px 0px 19px -4px rgba(255,156,45,1);
+
+}
+
+
