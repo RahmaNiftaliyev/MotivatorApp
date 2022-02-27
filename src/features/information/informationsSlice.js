@@ -27,4 +27,11 @@ function sliceInvoker() {
 
 
 
+export const selectAllInformations = state =>
+  state.informations.informations;
+
+export const selectInformationById = (state, userId) => {
+  return state.informations.informations.find(i => i.id === userId)
+}
+
 export default informationsSlice.reducer
